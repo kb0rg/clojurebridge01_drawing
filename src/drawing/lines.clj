@@ -8,4 +8,15 @@
 
 (defn draw []
   ; call quil bg func
-  (q/background 240))
+  (q/background 240)
+  (q/line 0 0 (q/mouse-x) (q/mouse-y))
+  (q/line 200 0 (q/mouse-x) (q/mouse-y))
+  (q/line 0 200 (q/mouse-x) (q/mouse-y))
+  (q/line 200 200 (q/mouse-x) (q/mouse-y)))
+
+(q/defsketch hello-lines
+  :title "You can see lines"
+  :size [500 500]
+  :setup setup
+  :draw draw
+  :features [:keep-on-top])
