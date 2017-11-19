@@ -1,3 +1,10 @@
+Intro to Clojure thanks to ClojureBridge:
+https://github.com/ClojureBridge
+
+based on the exercise here:
+https://github.com/ClojureBridge/drawing/blob/master/curriculum/first-program.md
+
+
 # drawing
 
 A Quil sketch designed to ... well, that part is up to you.
